@@ -3,4 +3,10 @@
 def square_matrix_simple(matrix=[]):
     if not matrix:
         return None
-    return list(list(map(lambda x: x*x, new_list)) for new_list in matrix)
+    new_matrix = []
+    for row in matrix:
+        new_row = []
+        for e in row:
+            new_row.append(e ** 2)
+        new_matrix.append(new_row)
+    return new_matrix
