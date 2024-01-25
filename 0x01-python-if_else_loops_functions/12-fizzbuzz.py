@@ -6,7 +6,7 @@ def fizzbuzz():
     str_2 = "Buzz"
     str_3 = "FizzBuzz"
 
-    while(n < 101):
+    while (n < 101):
         if (n % 3 == 0 and n % 5 == 0):
             print("{}".format(str_3), end=" ")
         elif (n % 5 == 0):
