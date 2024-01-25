@@ -14,6 +14,6 @@ def fizzbuzz():
         elif (n % 3 == 0 and n % 5 == 0):
             print("{}".format(str_3), end=" ")
         else:
-            print("{:d}".format(n), end=" ")
+            print("{}".format(n), end=" ")
 
         n += 1
